@@ -1,4 +1,6 @@
-class ComplexNumber {
+
+
+class addcomplexnumber {
 //variables to hold real and imaginary part of complex number
 
     int real, image;
