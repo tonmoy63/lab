@@ -16,11 +16,12 @@ public class Student {
 		this.stu_address=address;
 	}
 	public void StudentFees(double fees) {
-		this.stu_fees=fees;
+		
 	
 	if(fees<=2000) {
 		fees+=10*fees/100;
-	}}
+	}this.stu_fees=fees;
+	}
 	public void display() {
 		System.out.println("Student no:" +stu_no+" , Student name:" +stu_name+", Student mail: "+stu_mail+", Student Address:"+stu_address+", Student Fees:" +stu_fees);
 	}
