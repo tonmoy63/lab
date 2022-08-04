@@ -1,5 +1,5 @@
 package Lab7;
-
+// TONMOY HALDER
 public class TaxCalculator {
 	public double calculateTax(String empName, boolean isIndian, double empSal) {
 		double taxAmount=0;
